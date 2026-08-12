@@ -11,9 +11,7 @@ Garrett Motion의 NMPC(Nonlinear Model Predictive Control) 프레임워크를 �
 
 ## 시스템 구조
 
-![시스템 블록 다이어그램](assets/system_block_diagram.jpg)
-
-Simulink 상의 NMPC 블록으로, 초기 상태(`U_init`, `x0`), 기준값(`y_ref`, `u_ref`), 제약 조건(`u_lb`/`u_ub`, `y_min_lim`/`y_max_lim`)을 입력받아 최적 제어입력(`u_k`, `u_pred`)과 예측 출력(`y_pred`), 비용함수 값(`fval`)을 산출하는 구조입니다.
+Simulink 상의 NMPC 블록으로, 초기 상태(`U_init`, `x0`), 기준값(`y_ref`, `u_ref`), 제약 조건(`u_lb`/`u_ub`, `y_min_lim`/`y_max_lim`)을 입력받아 최적 제어입력(`u_k`, `u_pred`)과 예측 출력(`y_pred`), 비용함수 값(`fval`)을 산출하는 구조입니다. (NMPC 블록 자체는 Garrett Motion에서 제공한 상용 프레임워크이므로 다이어그램 이미지는 게시하지 않았습니다.)
 
 시뮬레이션에 사용된 기본 설정값은 다음과 같습니다.
 
