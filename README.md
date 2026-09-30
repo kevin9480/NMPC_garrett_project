@@ -1,6 +1,6 @@
 # NMPC 기반 하이브리드차 연료소비·SOC 최적화 시뮬레이션
 
-**창업연계융합설계 (Garrett Motion 연계 프로젝트) · Garrett Motion Korea 경진대회 2위**
+**창업연계융합설계 (Garrett Motion 연계 프로젝트)**
 
 Garrett Motion이 제공한 NMPC(Nonlinear Model Predictive Control) 프레임워크와 MATLAB/Simulink 차량 모델을 활용해 엔진(ICE)과 모터(MGU)의 동력 분배를 조정한 프로젝트입니다. 먼저 제공된 목표 그래프의 제어 응답을 재현하고, 이후 같은 주행 조건에서 누적 연료 소비(FC)와 배터리 충전 상태(SOC)를 비교하며 파라미터를 조정했습니다.
 
